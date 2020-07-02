@@ -36,7 +36,7 @@
 
 * Set draw_motifs to True in the test function，You can get the .eps file of visual motifs.
 
-* The default saved file address is './'+'.eps'
+* The default saved file address is source directory('./'+protein_name+'.eps').
 
 
 
