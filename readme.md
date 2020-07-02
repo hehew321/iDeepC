@@ -1,4 +1,5 @@
 #`Dependency:`
+
 python3.6
 
 tensorflow-gpu 1.13.1
@@ -11,12 +12,14 @@ weblogo 3.7.5
 
 
 #`Data:`
+
 CRIP: RBP-37
 
 GraphProt_CLIP_sequence: RBP-24
 
 
 #`Usage:`
+
 python.py [-h] [--dataset DATASET] [--protein_name PROTEIN_NAME]
 
 Enter the data set and protein name. The default is the CRIP dataset and ALKBH5 protein.
