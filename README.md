@@ -21,9 +21,9 @@ We present a RBP-specific method iDeepC for predicting RBP binding sites on circ
 
 ## Dataset
 
-* CRIP: RBP-37 for RBP binding circRNAs, it consists of 37 RBP datasets, each  corresponds to one RBP.
+* CRIP: RBP-37 for RBP binding circRNAs, it consists of 37 RBP datasets, each  corresponds to one RBP. All the datasets are  at datasets/CRIP_split/.
 
-* GraphProt_CLIP_sequence: RBP-24 for RBP binding linear RNAs, it consists of 24 datasets, each corresponds to one RBP.
+* GraphProt_CLIP_sequence: RBP-24 for RBP binding linear RNAs, it consists of 24 datasets, each corresponds to one RBP. The whole dataset can be downloaded from  http://www.bioinf.uni-freiburg.de/Software/GraphProt/GraphProt_CLIP_sequences.tar.bz2 
 
 
 ## Usage
