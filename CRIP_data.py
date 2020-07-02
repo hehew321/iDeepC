@@ -5,8 +5,8 @@ def load_data(protein_name, pattern='train'):
     seq = []
     seq_label = []
 
-    fp1 = open('./dataset/CRIP_split/' + protein_name + '/' + protein_name + '.' + pattern + '.' + 'positive')
-    fp2 = open('./dataset/CRIP_split/' + protein_name + '/' + protein_name + '.' + pattern + '.' + 'negative')
+    fp1 = open('./datasets/CRIP_split/' + protein_name + '/' + protein_name + '.' + pattern + '.' + 'positive')
+    fp2 = open('./datasets/CRIP_split/' + protein_name + '/' + protein_name + '.' + pattern + '.' + 'negative')
     for line in fp1:
         if line[0] != '>':
             seq.append(replace_seq(line.strip()))
