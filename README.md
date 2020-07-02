@@ -36,7 +36,7 @@ We present a RBP-specific method iDeepC for predicting RBP binding sites on circ
 
 ## Identify motifs by iDeepC
 
-* Set draw_motifs to True in the test function，you can get the .eps file of detected motifs by iDeepC.
+* Set draw_motifs to True in the test funciton of iDeepC.py，you can get the .eps file of detected motifs by iDeepC.
 
 * The default saved file directory is source directory('./'+protein_name+'.eps').
 
