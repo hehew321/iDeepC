@@ -4,7 +4,7 @@ We present a RBP-specific method iDeepC for predicting RBP binding sites on circ
 ## Code details
 * iDeepC.py is the main program.
 * CRIP_data.py and GraphProt_CLIP_data.py are the data processing script of the RBP-37 (CRIP) and RBP-24 (GraphProt) dataset, respectively.
-* CRIP_C22ORF28.h5 and GraphProt_CLIP_C22ORF28_Baltz2012.h5 are the pretrained model parameters for C22ORF28, and they are respectively loaded when training models for individual RBPs in RBP-37 and RBP-24 dataset.
+* CRIP_C22ORF28.h5 and GraphProt_CLIP_C22ORF28_Baltz2012.h5 are the pretrained model parameters for C22ORF28, and they are respectively loaded when training iDeepC models for individual RBPs in RBP-37 and RBP-24 dataset.
 
 ## Dependency
 
@@ -30,15 +30,15 @@ We present a RBP-specific method iDeepC for predicting RBP binding sites on circ
 
 * python iDeepC.py [-h] [--dataset DATASET] [--protein_name PROTEIN_NAME]
 
-* Enter the data set and protein name. The default is the CRIP dataset and ALKBH5 protein.
+  Enter the data set and protein name. The default value is the CRIP dataset and ALKBH5 protein, which will train iDeepC model for ALKBH5 in RBP-37 dataset. 
 
 
 
-## Identify motifs
+## Identify motifs by iDeepC
 
-* Set draw_motifs to True in the test function，You can get the .eps file of visual motifs.
+* Set draw_motifs to True in the test function，you can get the .eps file of detected motifs by iDeepC.
 
-* The default saved file address is source directory('./'+protein_name+'.eps').
+* The default saved file directory is source directory('./'+protein_name+'.eps').
 
 
 
