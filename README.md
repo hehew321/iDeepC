@@ -12,7 +12,7 @@
 
 * keras 2.3.0
 
-* skearn 0.0
+* skearn 0.20.0
 
 * weblogo 3.7.5
 
