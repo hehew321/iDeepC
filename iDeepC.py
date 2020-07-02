@@ -190,7 +190,7 @@ if __name__ == '__main__':
     print('{} start training {}'.format('*'*10, '*'*10))
 
     config = tf.ConfigProto()
-    config.gpu_options.per_process_gpu_memory_fraction = 0.2
+    config.gpu_options.per_process_gpu_memory_fraction = 0.6
     sess = tf.Session(config=config)
     KTF.set_session(sess)
     start_time = time.time()
