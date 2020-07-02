@@ -30,15 +30,15 @@ We present a RBP-specific method iDeepC for predicting RBP binding sites on circ
 
 * python iDeepC.py [-h] [--dataset DATASET] [--protein_name PROTEIN_NAME]
 
-  Enter the data set and protein name. The default value is the CRIP dataset and ALKBH5 protein, which will train iDeepC model for ALKBH5 in RBP-37 dataset. 
+  Specify the dataset for --dataset and protein name for --protein_name. The default value is the CRIP dataset and ALKBH5 protein, which will train iDeepC model for ALKBH5 in RBP-37 dataset. 
 
 
 
 ## Identify motifs by iDeepC
 
-* Set draw_motifs to True in the test funciton of iDeepC.py，you can get the .eps file of detected motifs by iDeepC.
+* Set draw_motifs to True in the test function in iDeepC.py，you can get the .eps file of detected motifs by iDeepC.
 
-* The default saved file directory is source directory('./'+protein_name+'.eps').
+* The default saved directory is source directory('./'+protein_name+'.eps').
 
 
 
