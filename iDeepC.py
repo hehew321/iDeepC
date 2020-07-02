@@ -162,7 +162,7 @@ def train(train_x, train_y, use_transfer=True, save_model=None, dataset='CRIP', 
 
 
 def test(model, test_x, test_y, draw_motifs=None, protein_name='ALKBH5'):
-    print('{}开始测试{}'.format('*'*10, '*'*10))
+    print('{}begin testing{}'.format('*'*10, '*'*10))
     scores = []
     pos_support = get_pos(train_x, train_y)
 
