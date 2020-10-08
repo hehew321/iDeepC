@@ -46,7 +46,7 @@ We present a RBP-specific method iDeepC for predicting RBP binding sites on circ
 
 
 ## Contact
-* 2008xypanatsjtu.edu.cn
+* 2008xypan@sjtu.edu.cn
 
 ## Reference
 * xxxxx
