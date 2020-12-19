@@ -129,13 +129,13 @@ def train(train_x, train_y, use_transfer=True, save_model=None, dataset='CRIP', 
         print('Error entering dataset name, please enter CRIP or GraphProt_CLIP')
     if dataset == 'CRIP':
         if use_transfer:
-            model = tf.keras.models.load_model('CRIP_C22ORF28.h5',
+            model = tf.keras.models.load_model('RBP24_C22ORF28.h5',
                                                custom_objects={'relu6': relu6, 'ABS': ABS, 'hard_swish': hard_swish})
         else:
             model = my_model(shape=(train_x.shape[1], train_x.shape[2], 1))
     else:
         if use_transfer:
-            model = tf.keras.models.load_model('GraphProt_CLIP_C22ORF28_Baltz2012.h5',
+            model = tf.keras.models.load_model('RBP37_C22ORF28.h5',
                                                custom_objects={'relu6': relu6, 'ABS': ABS, 'hard_swish': hard_swish})
 
         else:
